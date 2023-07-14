@@ -1,0 +1,64 @@
+.b1 {
+	background-color: rgb(255, 0, 0);
+	color: white;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	margin-right: 8px;
+	padding: 10px;
+	transition: opacity 1s;
+	/* aligns based on elements */
+	vertical-align: top;
+}
+/* hover/active is pseudo class */
+.b1:hover {
+	opacity: 0.5;
+}
+/* active works when we click on the button */
+.b1:active {
+	opacity: 0.25;
+}
+
+.b2 {
+	background-color: white;
+	border-color: rgb(154, 161, 255);
+	border-style: solid;
+	border-width: 1px;
+	color: rgb(154, 161, 255);
+	padding-left: 30px;
+	padding-top: 20px;
+	border-radius: 5px;
+	cursor: pointer;
+	margin-right: 8px;
+	padding: 10px;
+	transition: background-color 1s, color 1s;
+	vertical-align: top;
+}
+
+.b2:hover {
+	background-color: rgb(154, 161, 255);
+	color: white;
+}
+
+.b2:active {
+	opacity: 0.5;
+}
+
+.b3 {
+	color: white;
+	background-color: rgb(154, 161, 255);
+	border-color: rgb(154, 161, 255);
+	border: none;
+	border-radius: 15px;
+	cursor: pointer;
+	font-weight: bold;
+	transition: box-shadow 1s;
+	padding: 10px;
+	vertical-align: top;
+}
+
+.b3:hover {
+	box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+	/* right bottom blur color */
+	/* rgba -> how see through the color is */
+}
