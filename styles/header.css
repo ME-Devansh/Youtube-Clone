@@ -1,8 +1,15 @@
 .header {
-	height: 50px;
+	height: 55px;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: gray;
 }
 
 .left-section {
@@ -52,7 +59,7 @@
 	border-width: 1px;
 	border-style: solid;
 	border-color: gray;
-	margin-left: -1px;
+	margin-left: -2px;
 	margin-right: 10px;
 }
 
