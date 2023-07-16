@@ -10,6 +10,8 @@
 	border-bottom-width: 1px;
 	border-bottom-style: solid;
 	border-bottom-color: gray;
+	z-index: 1;
+	background-color: white;
 }
 
 .left-section {
@@ -107,4 +109,20 @@
 .current-user-picture {
 	height: 32px;
 	border-radius: 16px;
+}
+.notifications-icon-container {
+	position: relative;
+}
+.notifications-count {
+	position: absolute;
+	top: -2px;
+	right: -5px;
+	background-color: red;
+	color: white;
+	font-size: 14px;
+	border-radius: 15px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	padding-left: 5px;
+	padding-right: 5px;
 }
